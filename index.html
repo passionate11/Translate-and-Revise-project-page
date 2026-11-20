@@ -480,6 +480,25 @@ Revised translation result:</pre>
   </div>
 </section>
 
+<section class="section" id="terminology-comparison">
+  <div class="container">
+    <h2 class="kicker">Approaches to terminology-constrained machine translation</h2>
+    <div class="table-wrap">
+      <table class="rtab">
+        <thead>
+          <tr><th scope="col">Approach</th><th scope="col">How it handles required terms</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row"><a href="https://aclanthology.org/P17-1141/">Grid Beam Search</a></th><td>Extends beam search to enforce prescribed words and phrases while the output is generated.</td></tr>
+          <tr><th scope="row"><a href="https://aclanthology.org/P19-1294/">Terminology-aware NMT</a></th><td>Trains the translation model to use custom terminology supplied with the input.</td></tr>
+          <tr><th scope="row"><a href="https://aclanthology.org/2024.ccl-1.82/">Translate-and-Revise</a></th><td>Prompts an LLM to generate a translation, checks for missing constraints, and gives the reviser explicit feedback on the unmet terms.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tnote">The <a href="https://arxiv.org/html/2407.13164#S3.SS2">main experiments</a> report BLEU and constraint completion separately, including general lexical constraints and WMT21 terminology. The methods above enforce or encourage terminology at different stages.</p>
+  </div>
+</section>
+
 <!-- ================= FAQ ================= -->
 <section class="section" id="faq">
   <div class="container">
