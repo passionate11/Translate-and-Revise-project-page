@@ -4,6 +4,6 @@ Project page for **"Translate-and-Revise: Boosting Large Language Models for Con
 
 Live at **https://passionate11.github.io/Translate-and-Revise-project-page/**
 
-Paper: [ACL Anthology](https://aclanthology.org/2024.ccl-1.82/) · [arXiv:2407.13164](https://arxiv.org/abs/2407.13164)
+Paper: [ACL Anthology](https://aclanthology.org/2024.ccl-1.82/) · [arXiv:2407.13164](https://arxiv.org/abs/2407.13164) · [Springer proceedings DOI](https://doi.org/10.1007/978-981-97-8367-0_8)
 
 A static site (plain HTML/CSS/JS, no build step). Preview locally with `python3 -m http.server` and open http://localhost:8000.
