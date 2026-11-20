@@ -483,15 +483,15 @@ Revised translation result:</pre>
 <section class="section" id="terminology-comparison">
   <div class="container">
     <h2 class="kicker">Approaches to terminology-constrained machine translation</h2>
-    <div class="table-wrap">
-      <table class="rtab">
+    <div class="table-scroll">
+      <table class="rtab" style="min-width:0">
         <thead>
           <tr><th scope="col">Approach</th><th scope="col">How it handles required terms</th></tr>
         </thead>
         <tbody>
-          <tr><th scope="row"><a href="https://aclanthology.org/P17-1141/">Grid Beam Search</a></th><td>Extends beam search to enforce prescribed words and phrases while the output is generated.</td></tr>
-          <tr><th scope="row"><a href="https://aclanthology.org/P19-1294/">Terminology-aware NMT</a></th><td>Trains the translation model to use custom terminology supplied with the input.</td></tr>
-          <tr><th scope="row"><a href="https://aclanthology.org/2024.ccl-1.82/">Translate-and-Revise</a></th><td>Prompts an LLM to generate a translation, checks for missing constraints, and gives the reviser explicit feedback on the unmet terms.</td></tr>
+          <tr><th scope="row"><a href="https://aclanthology.org/P17-1141/">Grid Beam Search</a></th><td style="text-align:left;white-space:normal">Extends beam search to enforce prescribed words and phrases while the output is generated.</td></tr>
+          <tr><th scope="row"><a href="https://aclanthology.org/P19-1294/">Terminology-aware NMT</a></th><td style="text-align:left;white-space:normal">Trains the translation model to use custom terminology supplied with the input.</td></tr>
+          <tr><th scope="row"><a href="https://aclanthology.org/2024.ccl-1.82/">Translate-and-Revise</a></th><td style="text-align:left;white-space:normal">Prompts an LLM to generate a translation, checks for missing constraints, and gives the reviser explicit feedback on the unmet terms.</td></tr>
         </tbody>
       </table>
     </div>
